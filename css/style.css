@@ -38,6 +38,10 @@ label {
     font-style: normal;
 }
 
+input {
+    z-index:100;
+}
+
 #customWord {
     color: rgb(160, 160, 160);
     background-color: rgb(20, 20, 20);
