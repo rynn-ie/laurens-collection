@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(0, 0, 0);
     padding: 30px, 50px, 30px, 50px;
 }
 
@@ -66,24 +66,27 @@ label {
 }
 
 #circle1 {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     background-color: #A491D3;
+    translate: 75px 150px;
 }
 
 #circle2 {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     background-color: #C5DCA0;
+    translate: 125px 200px;
 }
 
 #circle3 {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background-color: #F5F2B8;
+    translate: 175px 250px;
 }
 
 #theWord {
@@ -94,6 +97,14 @@ label {
     translate: 20px;
 }
 
-img {
+#fatcat, #hatcat, #scaredcat, #buffcat, #studycat, #isthiscat {
     width: 0px;
+}
+
+output {
+    color: white;
+    font-size: 12px;
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
