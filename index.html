@@ -3,9 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css"> 
 </head>
 <body>
-    
+    <h1 class="comic-relief-bold">Make your poster!</h1>
+    <div class="poster-tool">
+        <div class="controls">
+            <!-- Type Inputs -->
+            <p>
+                <label for="customWord" class="comic-relief-regular">Type: </label>
+                <input id="customWord" type="text" placeholder="Give me new text!" />
+            </p>
+
+            <!-- 3 Circles-->
+            <p>
+                <label for="circle1Color" class="comic-relief-regular">Circle 1</label>
+                <input id="circle1Color" type="color" value="#A491D3" />
+                <output for="circle1Color"></output>
+            </p>
+            <p>
+                <label for="circle2Color" class="comic-relief-regular">Circle 2</label>
+                <input id="circle2Color" type="color" value="#C5DCA0" />
+                <output for="circle2Color"></output>
+            </p>
+            <p>
+                <label for="circle3Color" class="comic-relief-regular">Circle 3</label>
+                <input id="circle3Color" type="color" value="#F5F2B8" />
+                <output for="circle3Color"></output>
+            </p>
+
+            <!-- The Cats-->
+            <h2 class="comic-relief-bold">Grow a cat (or two (or three))!</h2>
+            <!-- Fatcat -->
+            <p>
+                <label for="fatcatScale">Grow the Fatcat</label>
+                <input id="fatcatScale" type="range" min="0" max="600" value="0" />
+                <output for="fatcatScale"></output>
+            </p>
+            <p>
+                <label for="fatcatMoveX">Fatcat's X-axis</label>
+                <input id="fatcatMoveX" type="range" min="0" max="400" value="50" />
+                <label for="fatcatMoveY">Fatcat's Y-axis</label>
+                <input id="fatcatMoveY" type="range" min="0" max="400" value="50" />
+            </p>
+
+            <!-- Hatcat -->
+            <p>
+                <label for="hatcatScale">Grow the Hatcat</label>
+                <input id="hatcatScale" type="range" min="0" max="600" value="0" />
+                <output for="hatcatScale"></output>
+            </p>
+            <p>
+                <label for="hatcatMoveX">Hatcat's X-axis</label>
+                <input id="hatcatMoveX" type="range" min="0" max="400" value="50" />
+                <label for="hatcatMoveY">Hatcat's Y-axis</label>
+                <input id="hatcatMoveY" type="range" min="0" max="400" value="50" />
+            </p> 
+
+            <!-- Scared Cat -->
+            <p>
+                <label for="scaredcatScale">Grow the Scared-y Cat</label>
+                <input id="scaredcatScale" type="range" min="0" max="600" value="0" />
+                <output for="scaredcatScale"></output>
+            </p>
+            <p>
+                <label for="scaredcatMoveX">Scared-y Cat's X-axis</label>
+                <input id="scaredcatMoveX" type="range" min="0" max="400" value="50" />
+                <label for="scaredcatMoveY">Scared-y Cat's Y-axis</label>
+                <input id="scaredcatMoveY" type="range" min="0" max="400" value="50" />
+            </p>  
+
+            <!-- Buff Cat -->
+
+            <!-- Studious Cat -->
+
+            <!-- Cat? -->
+            
+        </div>
+        <div class="poster-box">
+            <div id="circle1"></div>
+            <div id="circle2"></div>
+            <div id="circle3"></div>
+            <p id="theWord">hello cats!</p>
+            <img id="fatcat" src="img/fatcat.png">
+            <img id="hatcat" src="img/hatcat.png">
+            <img id="studycat" src="img/studycat.png">
+            <img id="scaredcat" src="img/scaredcat.png">
+            <img id="isthiscat" src="img/isthiscat.png">
+            <img id="buffcat" src="img/buffcat.png">
+        </div>
+    </div>
+ <script src="script.js"></script>
 </body>
 </html>
