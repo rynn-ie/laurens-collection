@@ -157,6 +157,20 @@ isthiscatMoveY.addEventListener("input", function(){
     movePosition(isthiscat, isthiscatMoveX, isthiscatMoveY);
 })
 
+// loads
+
+updateOutput(circle1ColorOut, circle1Color);
+updateOutput(circle2ColorOut, circle2Color);
+updateOutput(circle3ColorOut, circle3Color);
+movePosition(fatcat, fatcatMoveX, fatcatMoveY);
+movePosition(hatcat, hatcatMoveX, hatcatMoveY);
+movePosition(scaredcat, scaredcatMoveX, scaredcatMoveY);
+movePosition(buffcat, buffcatMoveX, buffcatMoveY);
+movePosition(studycat, studycatMoveX, studycatMoveY);
+movePosition(studycat, studycatMoveX, studycatMoveY);
+
+
+
 
 /* 
          _   _  ___ _____ _____ ____          
