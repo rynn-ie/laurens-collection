@@ -20,7 +20,7 @@ li {
 
 a {
     font-family: "Bricolage Grotesque", Helvetica;
-    weight: 600;
+    font-weight: 600;
     font-size: 16px;
     text-decoration: none;
     color: #123636;
@@ -54,14 +54,21 @@ h1 {
 
 h2 {
     font-family: "Bricolage Grotesque", Helvetica;
-    weight: 600;
+    font-weight: 600;
     font-size: 16px;
     color: #123636;
 }
 
+.placeitems h2 {
+    font-family: "Bricolage Grotesque", Helvetica;
+    font-weight: 600;
+    font-size: 16px;
+    color: #928645;
+}
+
 h3 {
     font-family: "Bricolage Grotesque", Helvetica;
-    weight: 600;
+    font-weight: 600;
     font-size: 12px;
     color: #123636;
 }
@@ -93,6 +100,7 @@ img {
 
 #country {
     color: #7ED5D5;
+    font-weight: 400;
 }
 
 .horizontal-text {
@@ -107,10 +115,6 @@ img {
 
 #state {
     color: white;
-}
-
-.triangle {
-
 }
 
 #lat {
@@ -128,14 +132,11 @@ img {
     gap: 35%;
 }
 
-caption /*container*/ {
-    
-}
-
 #visitReason {
     color: white;
     text-align: right;
     line-height: 1.2rem;
+    font-weight: 400;
 }
 
 .header /*add padding below for list items*/ {
@@ -145,7 +146,7 @@ caption /*container*/ {
 
 button {
     font-family: "Bricolage Grotesque", Helvetica;
-    weight: 600;
+    font-weight: 400;
     font-size: 12px;
     color: #123636;
     text-decoration: underline;
@@ -158,7 +159,7 @@ button {
 
 button:active {
     font-family: "Bricolage Grotesque", Helvetica;
-    weight: 600;
+    font-weight: 600;
     font-size: 12px;
     color: #dfd156;
     text-decoration: underline;
@@ -166,7 +167,7 @@ button:active {
 
 button:hover {
     font-family: "Bricolage Grotesque", Helvetica;
-    weight: 600;
+    font-weight: 600;
     font-size: 12px;
     color: #008484;
     text-decoration: underline;
