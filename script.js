@@ -16,8 +16,8 @@ fetch("places.json").then(response => response.json())
 
 // a function for generating movie card
 function displayPlace(place) {
-    let generatedSection = document.querySelector('.leftsec');
-    if (parent === generatedSection) parent.innerHTML="";
+    // let generatedSection = document.querySelector('.leftsec');
+    // if (parent === generatedSection) parent.innerHTML="";
     document.querySelector("#city").textContent = place.city
     document.querySelector("#state").textContent = place.state
     document.querySelector("#country").textContent = place.country
