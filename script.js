@@ -29,9 +29,9 @@ function displayPlace(place) {
         document.querySelector("#imgBox").appendChild(imgGenerate);
 }
 
-document.querySelector(`[data-city="${city}"]`).addEventListener("click", function(){
-    displayPlace(place)
-})
+// document.querySelector(`[data-city="${city}"]`).addEventListener("click", function(){
+//     displayPlace(place)
+// })
 
 // when user clicks a place, run displayPlace for that specific place
 

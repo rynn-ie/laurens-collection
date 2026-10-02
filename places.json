@@ -1,5 +1,16 @@
 [
   {
+    "continent": "Europe",
+    "country": "Germany",
+    "city": "Lindau",
+    "state": "",
+    "lat": 47.55410178,
+    "long": 9.693882746,
+    "visited": "Yes",
+    "purpose": "Sightseeing",
+    "path": "img/lindau.jpg"
+  },
+  {
     "continent": "North America",
     "country": "USA",
     "city": "Denver",
@@ -240,17 +251,6 @@
     "visited": "Yes",
     "purpose": "2019 World Gymnaestrada",
     "path": "img/dornbirn.jpg"
-  },
-  {
-    "continent": "Europe",
-    "country": "Germany",
-    "city": "Lindau",
-    "state": "",
-    "lat": 47.55410178,
-    "long": 9.693882746,
-    "visited": "Yes",
-    "purpose": "Sightseeing",
-    "path": "img/lindau.jpg"
   },
   {
     "continent": "North America",
