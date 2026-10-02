@@ -8,7 +8,7 @@
     "long": 9.693882746,
     "visited": "Yes",
     "purpose": "Sightseeing",
-    "path": "img/lindau.jpg"
+    "path": "img/lindau.jpeg"
   },
   {
     "continent": "North America",
@@ -63,7 +63,7 @@
     "long": -80.39802531,
     "visited": "Yes",
     "purpose": "Family",
-    "path": "img/vero.jpg"
+    "path": "img/vero.jpeg"
   },
   {
     "continent": "North America",
@@ -74,7 +74,7 @@
     "long": -86.02377993,
     "visited": "Yes",
     "purpose": "Vacation with a friend",
-    "path": "img/rosemary.jpg"
+    "path": "img/rosemary.jpeg"
   },
   {
     "continent": "North America",
@@ -118,7 +118,7 @@
     "long": -80.27805536,
     "visited": "Yes",
     "purpose": "Stuck in the Miami airport for 50 hours (horrible experience btw)",
-    "path": "img/miami.jpg"
+    "path": "img/miami.jpeg"
   },
   {
     "continent": "Central America",
@@ -140,7 +140,7 @@
     "long": -75.16952739,
     "visited": "Yes",
     "purpose": "For funsies with an (ex) friend",
-    "path": "img/philadelphia.jpg"
+    "path": "img/philadelphia.jpeg"
   },
   {
     "continent": "North America",
@@ -151,7 +151,7 @@
     "long": -87.17874621,
     "visited": "Yes",
     "purpose": "Family trip",
-    "path": "img/pensacola.jpg"
+    "path": "img/pensacola.jpeg"
   },
   {
     "continent": "North America",
@@ -162,7 +162,7 @@
     "long": -87.58489837,
     "visited": "Yes",
     "purpose": "Family trip",
-    "path": "img/orangebeach.jpg"
+    "path": "img/orangebeach.jpeg"
   },
   {
     "continent": "North America",
@@ -239,7 +239,7 @@
     "long": 4.895022386,
     "visited": "Yes",
     "purpose": "2023 World Gymnaestrada",
-    "path": "img/amsterdam.jpg"
+    "path": "img/amsterdam.jpeg"
   },
   {
     "continent": "Europe",
@@ -250,7 +250,7 @@
     "long": 9.741375575,
     "visited": "Yes",
     "purpose": "2019 World Gymnaestrada",
-    "path": "img/dornbirn.jpg"
+    "path": "img/dornbirn.jpeg"
   },
   {
     "continent": "North America",
