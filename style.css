@@ -132,6 +132,7 @@ img {
 }
 
 .horizontal-flex {
+    width:100%;
     display: flex;
     justify-content: space-between;
     gap: 35%;
