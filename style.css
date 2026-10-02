@@ -28,7 +28,7 @@ a {
 
 .section-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.5fr 2fr;
     min-height: 100dvh;
 }
 
@@ -77,8 +77,9 @@ h3 {
     width:100%;
     max-width: 750px;
     height:70dvh;
-    background-color: gray;
     margin-bottom: 1rem;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 img {
