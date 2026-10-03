@@ -18,7 +18,7 @@
     "lat": 39.74195619,
     "long": -104.9962158,
     "visited": "Yes",
-    "purpose": "Birthplace, family",
+    "purpose": "My birthplace, returning to see family",
     "path": "img/denver.png"
   },
   {
@@ -51,7 +51,7 @@
     "lat": 28.47712751,
     "long": -81.44586564,
     "visited": "Yes",
-    "purpose": "Disney, Universal (more Universal than Disney)",
+    "purpose": "Disney, Universal",
     "path": "img/orlando.jpg"
   },
   {
@@ -62,7 +62,7 @@
     "lat": 27.63865962,
     "long": -80.39802531,
     "visited": "Yes",
-    "purpose": "Family",
+    "purpose": "Visiting family",
     "path": "img/vero.jpeg"
   },
   {
@@ -106,7 +106,7 @@
     "lat": 43.0964186,
     "long": -79.04020706,
     "visited": "Yes",
-    "purpose": "Niagara Falls",
+    "purpose": "To see Niagara Falls (why else?)",
     "path": "img/niagara.png"
   },
   {
@@ -117,7 +117,7 @@
     "lat": 25.79685246,
     "long": -80.27805536,
     "visited": "Yes",
-    "purpose": "Stuck in the Miami airport for 50 hours (horrible experience btw)",
+    "purpose": "Stuck in the Miami airport for 50+ hours (horrible experience btw)",
     "path": "img/miami.jpeg"
   },
   {
@@ -183,7 +183,7 @@
     "lat": 40.65490971,
     "long": -74.57833448,
     "visited": "No",
-    "purpose": "Sightsee and visit a friend",
+    "purpose": "Sightsee and food and culture",
     "path": "img/newyork.png"
   },
   {
@@ -282,7 +282,7 @@
     "lat": 35.63939904,
     "long": 139.7237422,
     "visited": "No",
-    "purpose": "Sightsee and meet boyfriend's family",
+    "purpose": "Sightsee, eat, and meet boyfriend's family",
     "path": "img/japan.png"
   },
   {
