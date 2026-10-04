@@ -78,12 +78,12 @@ h3 {
     max-width: 750px;
     height:70dvh;
     margin-bottom: 1rem;
-    object-fit: cover;
     overflow: hidden;
 }
 
 img {
     width: 100%;
+    object-fit: cover;
 }
 
 .icon {

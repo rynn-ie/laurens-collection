@@ -15,10 +15,8 @@ fetch("places.json").then(response => response.json())
     .catch(error => console.log("error", error))
 
 
-// a function for generating movie card
+// a function for generating the stuff on the left side
 function displayPlace(place) {
-    // let generatedSection = document.querySelector('.leftsec');
-    // if (parent === generatedSection) parent.innerHTML="";
     document.querySelector("#city").textContent = place.city
     document.querySelector("#state").textContent = place.state
     document.querySelector("#country").textContent = place.country
@@ -32,7 +30,7 @@ function displayPlace(place) {
         document.querySelector("#imgBox").appendChild(imgGenerate);
 }
 
-// button.addEventListener()
+// button.addEventListener() for the places buttons to display the content
 
 document.querySelector(".section-grid-places").addEventListener("click", function (event) {
     let button = event.target.closest("button[data-city]")
@@ -44,71 +42,83 @@ document.querySelector(".section-grid-places").addEventListener("click", functio
     }
 })
 
-// document.querySelector("#showAll").addEventListener("click", function (event) {
-//     let button = event.target.closest("button[data-city]")
-//     let cityName = button.dataset.city
-//     let selectedPlace = places.find(place => place.city === cityName)
+// FILTERS
 
-//     if (selectedPlace) {
-//         displayPlace(selectedPlace)
-//     }
-// })
+let placeButtons = document.querySelectorAll("button[data-city]")
+
+document.querySelector("#showAll").addEventListener("click", function (event) {
+    // make all the place buttons bg color go away before filtering (or in this case, all color)
+       console.log(placeButtons)
+
+       placeButtons.forEach(button => {
+       button.style.backgroundColor = ""
+    })
+})
+
+document.querySelector("#showEastUS").addEventListener("click", function (event) {
+       placeButtons.forEach(button => {
+       button.style.backgroundColor = ""
+       })
+        for (let i = 0; i < places.length; i++) {
+        let place = places[i]
+        if (place.eastorwest === "east" && place.country === "USA") {
+            let placeButton = document.querySelector(`[data-city="${place.city}"]`)
+            if (placeButton){
+            placeButton.style.backgroundColor = "#ff9a81"
+            }
+    }}
+})
+
+document.querySelector("#showWestUS").addEventListener("click", function (event) {
+       placeButtons.forEach(button => {
+       button.style.backgroundColor = ""
+       })
+        for (let i = 0; i < places.length; i++) {
+        let place = places[i]
+        if (place.eastorwest === "west" && place.country === "USA") {
+            let placeButton = document.querySelector(`[data-city="${place.city}"]`)
+            if (placeButton){
+            placeButton.style.backgroundColor = "#ff9a81"
+            }
+    }}
+})
+
+document.querySelector("#showVisitingSoon").addEventListener("click", function (event) {
+       placeButtons.forEach(button => {
+       button.style.backgroundColor = ""
+       })
+        for (let i = 0; i < places.length; i++) {
+        let place = places[i]
+        if (place.visited === "No") {
+            let placeButton = document.querySelector(`[data-city="${place.city}"]`)
+            if (placeButton){
+            placeButton.style.backgroundColor = "#ff9a81"
+            }
+    }}
+})
+
+document.querySelector("#showFavorites").addEventListener("click", function (event) {
+       placeButtons.forEach(button => {
+       button.style.backgroundColor = ""
+       })
+        for (let i = 0; i < places.length; i++) {
+        let place = places[i]
+        if (place.favorite === "Y") {
+            let placeButton = document.querySelector(`[data-city="${place.city}"]`)
+            if (placeButton){
+            placeButton.style.backgroundColor = "#ff9a81"
+            }
+    }}
+})
 
 // // ================================================================================================= //
 
+// GOALS NOTES:
 
-
-// function createGenreFilter(genre) {
-//     document.querySelector(`[data-genre="${genre}"]`).addEventListener("click", function(event) {
-//         let selectedGenreFilter= event.target
-//         let selectedGenre = selectedGenreFilter.getAttribute("data-genre")
-//         let moviesSection = document.querySelector("#movies")
-//         moviesSection.innerHTML = "" // always empty moviesSection before re-generating filtered data
-//         let filters = document.querySelectorAll(".filter")
-//                 }
-            
-//         )}
-//         // remove and set filter element style
-//         styleFilters(filters, selectedGenre)
-//     })
-// }
-// function createRatedFilter(rated) {
-//     document.querySelector(`[data-rated="${rated}"]`).addEventListener("click", function() {
-//     let moviesSection = document.querySelector("#movies")
-//     moviesSection.innerHTML = ""
-//     let filteredMovies = movies.filter(movie => movie.rated.toLowerCase() === rated);
-//     for(let i = 0; i < filteredMovies.length; i++) {
-//         makeMovie(filteredMovies[i])
-//     }
-//     let filters = document.querySelectorAll(".filter")
-//     styleFilters(filters, rated)
-// })
-// }
-
-// createGenreFilter("drama")
-// createGenreFilter("all")
-// createGenreFilter("thriller")
-// createGenreFilter("animation")
-// createGenreFilter("adventure")
-// createGenreFilter("fantasy")
-// createGenreFilter("sci-fi")
-// createGenreFilter("action")
-// createGenreFilter("comedy")
-// createGenreFilter("romance")
-// createRatedFilter("r")
-// createRatedFilter("pg")
-// createRatedFilter("pg-13")
-
-
-
-// // document.querySelector(`[data-city="${city}"]`).addEventListener("click", function(){
-// //     displayPlace(place)
-// // })
-
-// // when user clicks a place, run displayPlace for that specific place
+// // when user clicks a place, run a displayPlace for that specific place
 
 // // js finds the place and displays <img> within #imgBox, city within #city, state within #state, #latitude, #longitude, and #visitReason
 
 // // filter by all, east us, west, us, visiting soon, and favorites
 
-// // filter buttons should relate to an if statement (if this radio input showVisitingSoon is checked, show list items with the No property in Visited)
+// // filter buttons should relate to an if statement (if this radio input showVisitingSoon is checked, highlight list items with the property)
