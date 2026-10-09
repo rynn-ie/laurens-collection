@@ -39,8 +39,10 @@ document.querySelector(".section-grid-places").addEventListener("click", functio
 
     if (selectedPlace) {
         displayPlace(selectedPlace)
-    }
-})
+        document.documentElement.setAttribute("data-bg", selectedPlace.theme)
+    } 
+}
+)
 
 // FILTERS
 

@@ -9,7 +9,8 @@
     "visited": "Yes",
     "purpose": "Sightseeing",
     "path": "img/lindau.jpeg",
-    "favorite": "Y"
+    "favorite": "Y",
+    "theme": "pinkgreen"
   },
   {
     "continent": "North America",
@@ -22,7 +23,8 @@
     "purpose": "My birthplace, returning to see family",
     "path": "img/denver.png",
     "eastorwest": "west",
-    "favorite": "N"
+    "favorite": "N",
+    "theme": "default"
   },
   {
     "continent": "North America",
@@ -35,7 +37,8 @@
     "purpose": "Hiking Garden of the Gods",
     "path": "img/colorado-springs.png",
     "eastorwest": "west",
-    "favorite": "N"
+    "favorite": "N",
+    "theme": "pinkgreen"
   },
   {
     "continent": "North America",
@@ -48,7 +51,8 @@
     "purpose": "High Museum of Art",
     "path": "img/atl.jpg",
     "eastorwest": "east",
-    "favorite": "N"
+    "favorite": "N",
+    "theme": "pinkred"
   },
   {
     "continent": "North America",
@@ -61,7 +65,8 @@
     "purpose": "Disney, Universal",
     "path": "img/orlando.jpg",
     "eastorwest": "east",
-    "favorite": "Y"
+    "favorite": "Y",
+    "theme": "default"
   },
   {
     "continent": "North America",
@@ -74,7 +79,8 @@
     "purpose": "Visiting family",
     "path": "img/vero.jpeg",
     "eastorwest": "east",
-    "favorite": "N"
+    "favorite": "N",
+    "theme": "green"
   },
   {
     "continent": "North America",
@@ -87,7 +93,8 @@
     "purpose": "Vacation with a friend",
     "path": "img/rosemary.jpeg",
     "eastorwest": "east",
-    "favorite": "Y"
+    "favorite": "Y",
+    "theme": "redblue"
   },
   {
     "continent": "North America",
@@ -100,7 +107,8 @@
     "purpose": "Saw family",
     "path": "img/phoenix.png",
     "eastorwest": "west",
-    "favorite": "N"
+    "favorite": "N",
+    "theme": "pinkgreen"
   },
   {
     "continent": "North America",
@@ -113,7 +121,8 @@
     "purpose": "Saw the Grand Canyon",
     "path": "img/grand-canyon.png",
     "eastorwest": "west",
-    "favorite": "Y"
+    "favorite": "Y",
+    "theme": "redblue"
   },
   {
     "continent": "North America",
@@ -126,7 +135,8 @@
     "purpose": "To see Niagara Falls (why else?)",
     "path": "img/niagara.png",
     "eastorwest": "east",
-    "favorite": "N"
+    "favorite": "N",
+    "theme": "blue"
   },
   {
     "continent": "North America",
@@ -139,7 +149,8 @@
     "purpose": "Stuck in the Miami airport for 50+ hours (horrible experience btw)",
     "path": "img/miami.jpeg",
     "eastorwest": "east",
-    "favorite": "N"
+    "favorite": "N",
+    "theme": "default"
   },
   {
     "continent": "Central America",
@@ -151,7 +162,8 @@
     "visited": "Yes",
     "purpose": "Mission Trip",
     "path": "img/costarica.jpg",
-    "favorite": "Y"
+    "favorite": "Y",
+    "theme": "pinkred"
   },
   {
     "continent": "North America",
@@ -164,7 +176,8 @@
     "purpose": "For funsies with an (ex) friend",
     "path": "img/philadelphia.jpeg",
     "eastorwest": "east",
-    "favorite": "Y"
+    "favorite": "Y",
+    "theme": "redblue"
   },
   {
     "continent": "North America",
@@ -177,7 +190,8 @@
     "purpose": "Family trip",
     "path": "img/pensacola.jpeg",
     "eastorwest": "east",
-    "favorite": "N"
+    "favorite": "N",
+    "theme": "pinkred"
   },
   {
     "continent": "North America",
@@ -190,7 +204,8 @@
     "purpose": "Family trip",
     "path": "img/orangebeach.jpeg",
     "eastorwest": "east",
-    "favorite": "Y"
+    "favorite": "Y",
+    "theme": "blue"
   },
   {
     "continent": "North America",
@@ -203,7 +218,8 @@
     "purpose": "Visit my friend at college",
     "path": "img/birmingham.jpg",
     "eastorwest": "east",
-    "favorite": "N"
+    "favorite": "N",
+    "theme": "pinkred"
   },
   {
     "continent": "North America",
@@ -216,7 +232,8 @@
     "purpose": "Sightsee and food and culture",
     "path": "img/newyork.png",
     "eastorwest": "east",
-    "favorite": "N"
+    "favorite": "N",
+    "theme": "blue"
   },
   {
     "continent": "Europe",
@@ -228,7 +245,8 @@
     "visited": "Yes",
     "purpose": "Graduation trip with my friend",
     "path": "img/rome.jpg",
-    "favorite": "Y"
+    "favorite": "Y",
+    "theme": "default"
   },
   {
     "continent": "Europe",
@@ -240,7 +258,8 @@
     "visited": "Yes",
     "purpose": "Graduation trip with my friend",
     "path": "img/florence.jpg",
-    "favorite": "Y"
+    "favorite": "Y",
+    "theme": "default"
   },
   {
     "continent": "Europe",
@@ -252,7 +271,8 @@
     "visited": "Yes",
     "purpose": "Graduation trip with my friend",
     "path": "img/pisa.jpg",
-    "favorite": "N"
+    "favorite": "N",
+    "theme": "default"
   },
   {
     "continent": "Europe",
@@ -264,7 +284,8 @@
     "visited": "Yes",
     "purpose": "Graduation trip with my friend",
     "path": "img/vatican.jpg",
-    "favorite": "Y"
+    "favorite": "Y",
+    "theme": "pinkred"
   },
   {
     "continent": "Europe",
@@ -276,7 +297,8 @@
     "visited": "Yes",
     "purpose": "2023 World Gymnaestrada",
     "path": "img/amsterdam.jpeg",
-    "favorite": "Y"
+    "favorite": "Y",
+    "theme": "redblue"
   },
   {
     "continent": "Europe",
@@ -288,7 +310,8 @@
     "visited": "Yes",
     "purpose": "2019 World Gymnaestrada",
     "path": "img/dornbirn.jpeg",
-    "favorite": "N"
+    "favorite": "N",
+    "theme": "green"
   },
   {
     "continent": "North America",
@@ -300,7 +323,8 @@
     "visited": "Yes",
     "purpose": "Cruise",
     "path": "img/nassau.jpg",
-    "favorite": "N"
+    "favorite": "N",
+    "theme": "default"
   },
   {
     "continent": "North America",
@@ -313,7 +337,8 @@
     "purpose": "Family trip",
     "path": "img/hiltonhead.jpg",
     "eastorwest": "east",
-    "favorite": "Y"
+    "favorite": "Y",
+    "theme": "pinkred"
   },
   {
     "continent": "Asia",
@@ -325,7 +350,8 @@
     "visited": "No",
     "purpose": "Sightsee, eat, and meet boyfriend's family",
     "path": "img/japan.png",
-    "favorite": "N"
+    "favorite": "N",
+    "theme": "green"
   },
   {
     "continent": "Europe",
@@ -337,7 +363,8 @@
     "visited": "No",
     "purpose": "2027 World Gymnaestrada",
     "path": "img/lisbon.png",
-    "favorite": "N"
+    "favorite": "N",
+    "theme": "default"
   },
   {
     "continent": "North America",
@@ -350,6 +377,7 @@
     "purpose": "Bachelorette trip",
     "path": "img/chattanooga.jpg",
     "eastorwest": "east",
-    "favorite": "N"
+    "favorite": "N",
+    "theme": "blue"
   }
 ]

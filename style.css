@@ -1,3 +1,53 @@
+:root {
+    --leftseccolor: #297373;
+    --leftsecaccent: #7ED5D5;
+    --rightseccolor: #FFF6A6;
+    --rightsecaccent: #928645;
+    --navcolor: #FFFDEA;
+}
+
+:root[data-bg='pinkred'] {
+    --leftseccolor: #CE5E2F;
+    --leftsecaccent: #932C00;
+    --rightseccolor: #F5C5BA;
+    --rightsecaccent: #D77862;
+    --navcolor: #FEF0ED;
+}
+
+:root[data-bg='pinkgreen'] {
+    --leftseccolor: #9C113E;
+    --leftsecaccent: #EC6893;
+    --rightseccolor: #B0EBA0;
+    --rightsecaccent: #126255;
+    --navcolor: #FFF0D9;
+}
+
+:root[data-bg='blue'] {
+    --leftseccolor: #2B3F53;
+    --leftsecaccent: #558FA6;
+    --rightseccolor: #C9D9FF;
+    --rightsecaccent: #7A87DA;
+    --navcolor: #E7FAFF;
+}
+
+:root[data-bg='redblue'] {
+    --leftseccolor: #E36658;
+    --leftsecaccent: #9F1A0E;
+    --rightseccolor: #BCF1FF;
+    --rightsecaccent: #558FA6;
+    --navcolor: #FFEDC6;
+}
+
+:root[data-bg='green'] {
+    --leftseccolor: #274515;
+    --leftsecaccent: #58893B;
+    --rightseccolor: #FFAA00;
+    --rightsecaccent: #976500;
+    --navcolor: #86C9FF;
+}
+
+
+
 .navitems {
     display: flex;
     flex-direction: row;
@@ -6,7 +56,7 @@
     z-index: 100;
     gap: 3.3rem;
     align-items: center;
-    background-color: #FFFDEA;
+    background-color: var(--navcolor);
     }
 
 ul {
@@ -21,7 +71,7 @@ li {
 a {
     font-family: "Bricolage Grotesque", Helvetica;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
     color: #123636;
 }
@@ -47,7 +97,7 @@ a {
 
 h1 {
     font-family: "Instrument Serif", serif;
-    font-size: 38px;
+    font-size: 2.2rem;
     color: #123636;
     margin-bottom: 0.5rem;
 }
@@ -55,21 +105,21 @@ h1 {
 h2 {
     font-family: "Bricolage Grotesque", Helvetica;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
     color: #123636;
 }
 
 .placeitems h2 {
     font-family: "Bricolage Grotesque", Helvetica;
     font-weight: 600;
-    font-size: 16px;
-    color: #928645;
+    font-size: 1rem;
+    color: var(--rightsecaccent);
 }
 
 h3 {
     font-family: "Bricolage Grotesque", Helvetica;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #123636;
 }
 
@@ -91,7 +141,7 @@ img {
 }
 
 .leftsec {
-    background-color: #297373;
+    background-color: var(--leftseccolor);
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -99,12 +149,12 @@ img {
 }
 
 .rightsec {
-    background-color: #FFF6A6;
+    background-color: var(--rightseccolor);
     padding: 2rem 4rem 2rem 4rem;
 }
 
 #country {
-    color: #7ED5D5;
+    color: var(--leftsecaccent);
     font-weight: 400;
 }
 
@@ -123,12 +173,12 @@ img {
 }
 
 #lat {
-    color: #7ED5D5;
+    color: var(--leftsecaccent);
     margin-bottom: 3px;
 }
 
 #long {
-    color: #7ED5D5;
+    color: var(--leftsecaccent);
 }
 
 .horizontal-flex {
@@ -153,7 +203,7 @@ img {
 button {
     font-family: "Bricolage Grotesque", Helvetica;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #123636;
     text-decoration: underline;
     display: flex;
@@ -166,7 +216,7 @@ button {
 button:active {
     font-family: "Bricolage Grotesque", Helvetica;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #dfd156;
     text-decoration: underline;
 }
@@ -174,7 +224,7 @@ button:active {
 button:hover {
     font-family: "Bricolage Grotesque", Helvetica;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #008484;
     text-decoration: underline;
 }
@@ -199,7 +249,7 @@ button:hover {
 label {
     font-family: "Bricolage Grotesque", Helvetica;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #93834b;
 }
 
