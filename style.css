@@ -250,11 +250,11 @@ label {
     font-family: "Bricolage Grotesque", Helvetica;
     font-weight: 400;
     font-size: 0.75rem;
-    color: #93834b;
+    color: var(--rightsecaccent);
 }
 
 input[type="radio"] {
-  accent-color: #FF6640; /* Replace with your desired color or hex code */
+  accent-color: #FF6640;
 }
 
 .filter-box {
